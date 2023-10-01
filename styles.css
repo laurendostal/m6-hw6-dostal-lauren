@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("Images/papyrus pattern.webp");
+}
+
+header {
+    background: white;
+    padding: 10px 0;
+    border-bottom: 3px solid darkslategray;
+}
+
+h1 {
+    background-color: rgb(141, 165, 141);
+    padding: 5px;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 33px;
+    border-radius: 5px;
+    text-align: center;
+    width: 35%;
+    display: flex;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+h2 {
+    color: rgb(141, 165, 141);
+    border-bottom: 2px solid darkslategray;
+    margin-bottom: 5px;
+}
+
+header nav {
+    width: 45%;
+    text-align: right;
+    display: flex;
+    margin-left: auto;
+
+}
+
+header nav a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    width: 55%;
+    background:white;
+    padding: 45px;
+    display: flex;
+}
+
+aside {
+    width: 25%;
+    vertical-align: top;
+    background: white;
+    padding: 45px;
+    margin-bottom: auto;
+}
+
+aside a {
+   flex-direction: row;
+   justify-content: flex-start;
+   text-decoration: none;
+}
+
+p{
+    margin: 10px;
+}
+
+.headshot {
+    float: left;
+    margin-right: 15px;
+}
+
+footer {
+    background: rgb(141, 165, 141);
+    padding: 10px 0;
+    border-top: 3px solid darkslategray;
+    text-align: center;
+    color: white;
+}
